@@ -1,42 +1,84 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.cell {
+  width: 50px;
+  height: 50px;
   text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  font-size: 20px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.cell.correct {
+  background-color: #a8e6cf; /* Light green for correct cells */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cell.error {
+  background-color: #ff8a80; /* Light red for incorrect cells */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cell.selected {
+  background-color: #ffeb3b; /* Yellow highlight for selected cells */
 }
 
-.card {
-  padding: 2em;
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.selected {
+  background-color: lightblue;
 }
+
+.correct {
+  background-color: lightgreen;
+}
+
+.error {
+  background-color: lightcoral;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.error {
+  background-color: lightcoral;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.error {
+  background-color: lightcoral;
+}
+
